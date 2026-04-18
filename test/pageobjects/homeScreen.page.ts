@@ -27,6 +27,7 @@ class homeScreen {
     async removeOnTheHomeScreen() {
         await this.removeProductButton.waitForDisplayed();      
         await this.removeProductButton.click();
+        await this.removeProductButton.click();
 }
 //atualizar branch homeScreen
 
