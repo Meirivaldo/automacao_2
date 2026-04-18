@@ -28,11 +28,10 @@ class homeScreen {
         await this.removeProductButton.waitForDisplayed();      
         await this.removeProductButton.click();
 }
-
+//atualizar branch homeScreen
 
 }
 
 export default new homeScreen();
 
 
-//atualizar branch homeScreen
